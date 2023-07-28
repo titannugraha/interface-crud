@@ -32,6 +32,8 @@ const App = () => {
           <Sidebar />
           <div className="dashboard-body">
             <Routes>
+              <Route path="*" element={<div></div>} />
+              <Route exact path="/" element={<Product />} />
               <Route exact path="/products" element={<Product />} />
               {/* <Route exact path="/users" element= /> */}
             </Routes>

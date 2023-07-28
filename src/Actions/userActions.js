@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const apiDomain = process.env.REACT_APP_API_DOMAIN || "http://localhost:8000";
+const apiDomain = "https://bustling-held-snout.glitch.me" || "http://localhost:8000"  ;
 const URL = apiDomain + "/api/users";
 
 const LOGIN_SUCCESS = "LOGIN_SUCCESS";
